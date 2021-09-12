@@ -1,0 +1,542 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+/* <i class="fa fa-facebook-square"></i> */
+/* <i class="fab fa-twitter-square"></i> */
+/* <i class="fab fa-linkedin"></i> */   
+/*<i class="fab fa-pinterest-square"></i>  */
+
+
+
+/* <i class="fa fa-instagram"></i> */
+/* <i class="fa fa-twitter"></i> */
+/* <i class="fas fa-map-marker-alt"></i> */
+/* <i class="far fa-envelope"></i> */
+/* <i class="fab fa-facebook-f"></i> */
+/* <i class="fab fa-google-plus-g"></i> */
+/* <i class="fab fa-linkedin-in"></i> */
+
+
+
+
+
+
+/* ------custom style---------- */
+
+:root {
+    --primary: rgb(1,45,91);
+    --lite-pink: rgb(250, 132, 138);
+    --pink: rgb(250, 99, 104);
+    --text-heading-color: rgb(25,29,52);
+    --text-pra-color: rgb(91,107,123);
+}
+
+
+
+/* -------common-style----------- */
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    margin: 0 auto;
+    padding: 9% 20%;
+}
+
+.text-center {
+    text-align: center;
+}
+p{
+    color: rgb(101,116,132);
+    font-weight: 500;
+
+ }
+/*------------ flex----------- */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-align-start {
+    align-items: flex-start;
+}
+.flex-start {
+    justify-content: flex-start;
+}
+.flex-center {
+    justify-content: center;
+
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-25 {
+    flex: 0 1 25%;
+}
+
+.flex-31-5 {
+    flex: 0 1 31.5%;
+}
+.flex-50 {
+    flex: 0 1 50%;
+}
+.flex-48 {
+    flex: 0 1 48%;
+}
+.flex-60 {
+    flex: 0 1 60%;
+}
+.flex-64 {
+     flex: 0 1 64%;
+}
+
+
+
+/*--------------- button-------- */
+.btn-pink {
+    padding: 18px 48px;
+    color: white !important;
+    background-color: var(--lite-pink);
+    font-weight: 600 !important;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+
+}
+.btn-pink-border {
+    padding: 16px 48px;
+    color: var(--pink) !important;
+    /* background-color: var(--lite-pink); */
+    font-weight: 600 !important;
+    border: 2px solid var(--pink);
+    border-radius: 5px;
+    display: inline-block;
+}
+/* ---------header-tags----------- */
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: var(--primary);
+    line-height: 1.2;
+    margin-bottom: 60px;
+
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 25px 0;
+    color: var(--text-heading-color);
+}
+h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--text-heading-color);
+
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--text-heading-color);
+
+
+}
+/* -----header----------- */
+
+
+/* header-top */
+
+.header-top-part-container {
+    background-color: var(--primary);
+    padding: 15px 0;
+    
+
+}
+.header-top-part {
+    padding: 0 10%;
+}
+.header-top-part nav a {
+    margin-left: 20px;
+}
+.header-top-part a {
+      color: white;   
+      font-size: 14px;
+      font-weight: 600;
+}
+.header-contact a{
+    margin-right: 60px;
+}
+.header-contact i {
+  padding-right: 8px;}
+
+/* header-bottom */
+
+.header-bottom-part nav a{
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 40px;
+
+}
+.header-bottom-part {
+    padding: 1.6% 10%;
+}
+.header-bottom-part .btn-pink{
+    margin-left: 65px !important; 
+
+}
+
+
+
+
+
+/* --------background image--------- */
+.hero {
+    background-image:url("../media/hero/h1_hero.jpg");
+    background-size: cover;
+}
+    
+.hero div {
+    margin-left: 20%;
+    width: 30%;
+    padding: 14% 0;
+
+}
+.hero h4 {
+    font-size: 18px;
+    color: var(--lite-pink);
+}
+
+
+
+ /* -----------team------------ */
+
+ .team-section {
+     background-color: rgb(246,249,254);
+     
+ }
+
+ .team {
+     width: 31.5%;
+ }
+
+ .team img {
+     width: 100%;
+ }
+
+
+ /* third div */
+
+.third-div {
+    border: 4px solid var(--pink);
+    padding: 32px 30px 32px 42px;
+    background-color: white;
+}
+
+
+.third-div hr {
+    border: 2px solid var(--pink);
+    width: 35%;
+    margin: 20px 0 35px 0;
+}
+.third-div a {
+    color: rgb(30,34,57);
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 30px 0 16px 0;
+}
+.third-div .btn-pink {
+    margin: 10% 0;
+    
+}
+
+
+/* trusted clients section */
+
+
+.trusted-clients{
+    position: relative;
+    width: 60%;
+}
+.trusted-clients img {
+    width: 100%;
+}
+
+.trusted-content {
+
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    padding: 9%;
+    top: 23%;
+    left: 82%;
+    width: 80%;
+}
+
+.trusted-content p {
+   padding: 9% 0 11% 0;
+}
+.trusted-content .btn-pink {
+    margin: 3% 0 0 0;
+ }
+
+
+
+
+
+/* our services */
+.services-section {
+    margin-bottom: 10%;
+}
+
+
+.our-services div{
+    width: 22%;
+
+ }
+.our-services i{
+ font-size: 50px;
+ margin-bottom: 18px;
+ display: inline-block;
+
+}
+
+
+
+/* ---------cases------- */
+.cases {
+    padding: 9% 17%;
+    background-color: rgb(248,250,254);
+
+    overflow: hidden;
+}
+.cases-content {
+    width: 48%;
+}
+
+.cases-content p {
+    line-height: 2;
+    margin: 15px 0  50px 0;
+
+}
+.cases-image-container {
+    width: 47%;
+
+}
+.cases-image-container img {
+       width: 68%;
+       margin: 8px;
+}
+.cases-content a {
+    margin-bottom: 15%;
+}
+
+
+/* -----------quotes-section----- */
+
+.quotes-div {
+    width: 65%;
+    font-weight: 500;
+
+}
+
+.quotes-div q {
+    font-size: 26px;
+    color: var(--text-heading-color);
+    margin: 6% 0 5% 0;
+}
+.fa-star {
+    color: rgb(248, 168, 19);
+}
+.quotes-div strong {
+    font-size: 19px;
+    color: var(--text-heading-color);
+    letter-spacing: -0.5px;
+}
+.quotes-div p {
+    margin: 3.5%;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    font-size: 26px;
+    color: var(--text-pra-color);
+
+}
+
+/* -------Our Recent news -------*/
+h6 {
+    color: var(--pink);
+    font-size: 15px;
+     
+}
+h5 {
+    color: var(--text-heading-color);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5% 0 3% 0;
+     
+}
+
+time {
+     color: rgb(174,188,203);
+     font-size: 14px;
+}
+
+.recent-news {
+    width: 31.5%;
+}
+.recent-news img{
+    width: 100%;
+}
+
+.recent-news-content {
+    padding: 20px 30px;
+}
+
+
+/* ---------request call container---------- */
+
+
+.request-call-container {
+    background-color: var(--primary);
+    padding: 5% 20% 6.5% 20%;
+    margin: 2.7% 0 0 0;
+}
+.request-call {
+    width: 30%;
+}
+.request-call h3 {
+    color: white;
+}
+.request-call p {
+    color: white;
+    margin-top: 25px;
+}
+
+/*------------ form------------ */
+
+
+.form-control {
+    border: none;
+    border: 2px solid rgb(41,86,132);
+    padding: 15px 12px;
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+
+}
+.form .btn-pink {
+    font-size: 14px;
+    margin-bottom: 30px;
+
+
+}
+
+
+/* --------footer-------- */
+footer .container {
+    padding-bottom: 0;
+    
+}
+footer h5 {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+footer p {
+    padding: 12% 5% 10% 0;
+}
+
+footer li {
+    margin: 15px 0;
+    color: var(--text-pra-color);
+}
+.lite-grey {
+    color: var(--text-pra-color);
+
+
+}
+footer nav a {
+    font-size: 20px;
+    color: rgb(34,34,34);
+    margin-right: 15px;
+}
+footer hr {
+    border: 1px solid rgb(211,229,253);
+    margin-top: 8%;
+
+
+}
+.copy-right {
+    padding: 3% 0;
+}
