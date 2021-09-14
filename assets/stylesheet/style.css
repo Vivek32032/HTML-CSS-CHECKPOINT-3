@@ -849,6 +849,6 @@ margin-top: 12%;
     
     
 .btn-pink-border:hover, li a:hover  {
-    background-color: skyblue;
+    color: var(--pink);
 
 }
