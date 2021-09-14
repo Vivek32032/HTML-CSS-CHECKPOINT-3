@@ -849,6 +849,7 @@ margin-top: 12%;
     
     
 .btn-pink-border:hover, li a:hover  {
-    color: var(--pink);
+    color: red;
+    
 
 }
